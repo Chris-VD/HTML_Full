@@ -1,0 +1,23 @@
+header{
+    background-color: black;
+    color: white;
+}
+article{
+    color: black;
+}
+footer{
+    background-color: black;
+    color: white;
+}
+#search{
+    background-color: #DADBF1;
+    color: black;
+}
+#button1{
+    background-color: #4B5FD5;
+    color: black;
+}
+#button2{
+    background-color: black;
+    color: white;
+}

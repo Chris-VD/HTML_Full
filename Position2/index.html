@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position2</title>
+    <style>
+        body {
+            margin: 0px;
+        }
+
+        header {
+            position: fixed;
+            height: 200px;
+            width: 100%;
+            background-color: red;
+        }
+
+        main {
+            height: 1000px;
+            background-color: cyan;
+        }
+
+        footer {
+            position: relative;
+            height: 300px;
+            background-color: brown;
+        }
+        p{
+            margin: 0px;
+            font-size: 3em;
+            position: relative;
+            top: 3em;
+            left: 5em;
+        }
+        #menu{
+            width: 400px;
+            height: 300px;
+            background-color:  #F5D6B4;
+        }
+        #circle{
+            height: 200px;
+            width: 200px;
+            background-color: aquamarine;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            border-radius: 100%;
+        }
+    </style>
+</head>
+<body>
+    <!--Se temos algo en pos absoluto, este será absoluto en relación ó último obxeto que non ten pos: static (a de por defecto), polo que se, por exemplo, neste archivo,
+    non tivéramos o pos relative no footer, o cirulo do div #circle sería absoluto en relación á páxina enteira polo que estaría arriba á ereita de todo en vez de como está ahora-.-->
+    <header></header>
+    <main>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, perspiciatis error sed aliquam similique
+            magni, suscipit debitis repellat sequi molestiae deleniti qui? Alias illum quasi vel excepturi aut placeat
+            quo!
+        </p>
+    </main>
+    <footer>
+        <div id="menu">
+            <div id="circle">
+
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

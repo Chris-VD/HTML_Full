@@ -1,0 +1,81 @@
+body{
+    background-color: #4F64AA;
+    margin: 0px;
+}
+h1{
+    width: 500px;
+    position: absolute;
+    left: 800px;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+}
+main{
+    position: absolute;
+    width: 100%;
+    height: 750px;
+    top: 300px;
+    left: 0px;
+    background-image: url("towers.png");
+}
+header{
+    position: fixed;
+    height: 300px;
+}
+div{
+    position: absolute;
+    width: 400px;
+    height: 300px;
+    background-color: #F3EAD2;
+}
+#a{
+    top: 20px;
+    left: 180px;
+    width: 30px;
+    height: 110px;
+    background-color: #D96C7B;
+}
+#b{
+    top: 100px;
+    left: 150px;
+    width: 30px;
+    height: 110px;
+    background-color: #D96C7B;
+}
+#c{
+    top: 100px;
+    left: 210px;
+    width: 30px;
+    height: 110px;
+    background-color: #D96C7B;
+}
+#d{
+    top: 180px;
+    left: 180px;
+    width: 30px;
+    height: 110px;
+    background-color: #D96C7B;
+}
+#e{
+    top: 180px;
+    left: 120px;
+    width: 30px;
+    height: 110px;
+    background-color: #D96C7B;
+}
+#f{
+    top: 180px;
+    left: 240px;
+    width: 30px;
+    height: 110px;
+    background-color: #D96C7B;
+}
+footer{
+    width: 100%;
+    height: 300px;
+    color: white;
+    position: absolute;
+    bottom: 1px;
+}
+p{
+    font-size: 50px;
+}

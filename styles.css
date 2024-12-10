@@ -1,0 +1,9 @@
+body{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+h1{
+    background-color: cyan;
+    color: blueviolet;
+    font-family: 'Times New Roman', Times, serif;
+}
+/*O último que pos é o que ten prioridade, se tivera posto h1 antes que body, a fuente de h1 tería sido a de body e non diferente.*/

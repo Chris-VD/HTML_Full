@@ -1,0 +1,39 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User <form action=""></form></title>
+    <style>
+        h1{
+            background-color: aqua;
+            color: black;
+            font-size: 4em;
+            font-family: 'Courier New', Courier, monospace;
+        }
+    </style>
+</head>
+<body>
+    <h1>Erm Erm</h1>
+    <h1 style="background-color: brown;">ERM!!!!!</h1>
+    <form action="data.php" method="post">
+        <!--se o name="" é o mesmo, so deixa marcar un dos do grupo
+        o de value="" é importante para que os datos do formulatio sexan correcots, é a información que se manda cando envías o formulario-->
+        <label for="erm">Female</label>
+        <input type="radio" name="gender" id="female" value="female">
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="male" value="male">
+        <label for="others">Others:</label>
+        <input type="radio" name="gender" id="others" value="others">
+        <br>
+        <!--Pódense seleccionar varias opcións, non como nos radios-->
+        <label for="java">java</label>
+        <input type="checkbox" name="language" id="java" value="java">
+        <label for="python">python</label>
+        <input type="checkbox" name="language" id="python" value="python">
+        <label for="html">html</label>
+        <input type="checkbox" name="language" id="html" value="html">
+        <br>
+        <input type="submit" value="submit">
+    </form>
+</body>
+</html>
